@@ -121,7 +121,7 @@ rl.question("🔍 Choose search type — (r)hyme or (a)lliteration: ", function 
     rl.close();
     return;
   }
-
+  
   // Prompt the user to enter a word or phrase
   rl.question("🔤 Enter a word or phrase: ", function (word) {
     word = word.trim().toLowerCase();
